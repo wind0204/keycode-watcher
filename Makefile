@@ -1,8 +1,8 @@
 # clear default .SUFFIXES
 .SUFFIXES :
 
-#CFLAGS = -time -march=native -O2 -Wall -Wno-unused-local-typedefs -Wno-int-conversion -std=gnu99 -pipe -flto -I /usr/lib/modules/4.5.4-1-ARCH/build/include
-CFLAGS = -time -march=native -O2 -Wall -Wno-unused-local-typedefs -Wno-int-conversion -std=gnu99 -pipe -flto
+CFLAGS = -time -march=native -O2 -Wall -Wno-unused-local-typedefs -Wno-int-conversion -std=gnu99 -pipe -flto -I /usr/lib/modules/4.5.4-1-ARCH/build/include
+#CFLAGS = -time -march=native -O2 -Wall -Wno-unused-local-typedefs -Wno-int-conversion -std=gnu99 -pipe -flto
 CXXFLAGS=$(CFLAGS)
 CC = gcc
 
